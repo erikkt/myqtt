@@ -1,5 +1,5 @@
 {
-    "name": "MyQTT",
+    "name": "HAqtt",
     "skillMetadata": {
         "sections": [
             {
@@ -27,7 +27,7 @@
                         "name": "broker_port",
                         "type": "number",
                         "label": "The MQTT Broker Port Number",
-                        "value": 1884
+                        "value": 1883
                     },
                     {
                         "name": "broker_uname",
