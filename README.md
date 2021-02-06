@@ -1,4 +1,4 @@
-# MyQTT
+# HAqtt
 This skill is for "non-supported" languages, like Norwegian. It sends all sentences that start with trigger words in "allwords.voc" to the MQTT-broker. 
 The intent is to let Node-Red handle all logic after message is sent. 
 
@@ -23,7 +23,7 @@ Be advised that this will make Mycroft useless for most other stuff than this sk
 
 Edit Allwords.voc:
 
-``$ nano ~/mycroft-core/skills/myqtt.erikkt/vocab/no-no/Allwords.voc `` 
+``$ nano ~/mycroft-core/skills/haqtt.erikkt/vocab/no-no/Allwords.voc `` 
 
 If you are using another language than NO, copy the folder no-no to your language.
 Enter all words you want to trigger on. For example: 
@@ -54,7 +54,7 @@ The examples contain flows for turning on and off lights and scenes, a flow for 
 
 ## Installation Notes
 - Ensure you have a working MQTT Broker. The Home Assistant Add-on Mosquitto works very well.
-- SSH and run: mycroft-msm install https://github.com/erikkt/myqtt.git
+- SSH and run: mycroft-msm install https://github.com/erikkt/haqtt.git
 - Configure home.mycroft.ai
     * Ensure MQTT is enabled.
     * Create a custom base topic name <base_topic>. This can be any MQTT formatted topic.
