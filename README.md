@@ -1,5 +1,5 @@
 # HAqtt
-This skill is for "non-supported" languages, like Norwegian. It sends all sentences that start with trigger words in "allwords.voc" to the MQTT-broker. 
+This is a Mycroft skill for "non-supported" languages, like Norwegian. It sends all sentences that start with trigger words in "allwords.voc" to the MQTT-broker. 
 The intent is to let Node-Red handle all logic after message is sent. 
 
 ## About
