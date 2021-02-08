@@ -44,7 +44,7 @@ class MqttSkill(MycroftSkill):
 
     # The constructor of the skill, which calls Mycroft Skill's constructor
     def __init__(self):
-        super(MqttSkill, self).__init__(name="HAqtt")
+        super(MqttSkill, self).__init__(name="MyQTT")
         # Initialize settings values
         self._is_setup = False
         self.notifier_bool = True
