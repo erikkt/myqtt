@@ -30,7 +30,7 @@
 - cd /home/pi/seeed-voicecard
 - ./install.sh 2mic --compat-kernel
 - sudo reboot
-- aplay -l (take note of card # and device #, e.g. 1,0. change file below accordingly)
+- aplay -l (take note of card # and device #, e.g. 1,0. Change file below accordingly)
 - sudo nano /etc/mycroft/mycroft.conf
       
       "play_wav_cmdline": "aplay -Dhw:1,0 %1",
