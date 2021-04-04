@@ -32,5 +32,6 @@
 - sudo reboot
 - aplay -l (take note of card # and device #, e.g. 1,0. change file below accordingly)
 - sudo nano /etc/mycroft/mycroft.conf
-     "play_wav_cmdline": "aplay -Dhw:1,0 %1",
+      
+      "play_wav_cmdline": "aplay -Dhw:1,0 %1",
       "play_mp3_cmdline": "mpg123 -a hw:1,0 %1",
