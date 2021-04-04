@@ -21,3 +21,16 @@
     Enable SPI
     Exit raspi-config
     sudo reboot 
+
+
+# Raspi 2-mic voicehat from Geekworm
+- Select "No" to guided setup
+- Ctrl-C - "mycroft-stop"
+- git clone https://github.com/respeaker/seeed-voicecard.git
+- cd /home/pi/seeed-voicecard
+- ./install.sh 2mic --compat-kernel
+- sudo reboot
+- aplay -l (take note of card # and device #, e.g. 1,0. change file below accordingly)
+- sudo nano /etc/mycroft/mycroft.conf
+     "play_wav_cmdline": "aplay -Dhw:1,0 %1",
+      "play_mp3_cmdline": "mpg123 -a hw:1,0 %1",
