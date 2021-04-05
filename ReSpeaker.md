@@ -28,7 +28,7 @@
 - Ctrl-C - "mycroft-stop"
 - git clone https://github.com/respeaker/seeed-voicecard.git
 - cd /home/pi/seeed-voicecard
-- ./install.sh 2mic --compat-kernel
+- sudo ./install.sh 2mic --compat-kernel
 - sudo reboot
 - aplay -l (take note of card # and device #, e.g. 1,0. Change file below accordingly)
 - sudo nano /etc/mycroft/mycroft.conf
