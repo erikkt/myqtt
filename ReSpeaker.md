@@ -35,3 +35,14 @@
       
       "play_wav_cmdline": "aplay -Dhw:1,0 %1",
       "play_mp3_cmdline": "mpg123 -a hw:1,0 %1",
+
+### Support for LED ring: 
+
+    mycroft-pip install apa102-pi   
+    mycroft-msm install https://github.com/j1nx/respeaker-4mic-hat-skill.git 
+    sudo raspi-config
+    Go to “Interfacing Options”
+    Go to “SPI”
+    Enable SPI
+    Exit raspi-config
+    sudo reboot 
