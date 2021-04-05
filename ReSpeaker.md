@@ -38,8 +38,7 @@
 
 ### Support for LED ring: 
 
-    mycroft-pip install apa102-pi   
-    mycroft-msm install https://github.com/j1nx/respeaker-4mic-hat-skill.git 
+    mycroft-msm install https://github.com/erikkt/Geekworm-Raspi-Voice-Hat-LED-Ring
     sudo raspi-config
     Go to “Interfacing Options”
     Go to “SPI”
