@@ -17,7 +17,7 @@
       "play_wav_cmdline": "aplay -Dhw:1,0 %1",
       "play_mp3_cmdline": "mpg123 -a hw:1,0 %1",
 
-- LED ring
+## LED ring
       mycroft-msm install https://github.com/erikkt/Geekworm-Raspi-Voice-Hat-LED-Ring
       sudo raspi-config
       Go to “Interfacing Options”
@@ -26,8 +26,8 @@
       Exit raspi-config
       sudo reboot 
       
-- MyQTT
-      mycroft-msm install https://github.com/erikkt/myqtt.git
+## MyQTT
+- mycroft-msm install https://github.com/erikkt/myqtt.git
 
 ``$ mycroft-config edit user``
 
