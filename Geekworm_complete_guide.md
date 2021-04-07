@@ -27,6 +27,7 @@
       sudo reboot 
       
 - MyQTT
+      mycroft-msm install https://github.com/erikkt/myqtt.git
 
 ``$ mycroft-config edit user``
 
