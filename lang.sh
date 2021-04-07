@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
-cp -r ~/mycroft-core/skills/fallback-unknown.mycroftai/vocab/en-us/ ~/mycroft-core/skills/fallback-unknown.mycroftai/vocab/no-no/
-cp -r ~/mycroft-core/skills/fallback-unknown.mycroftai/dialog/en-us/ ~/mycroft-core/skills/fallback-unknown.mycroftai/dialog/no-no/
+cp -r ~/mycroft-core/skills/fallback-unknown.mycroftai/vocab/en-us ~/mycroft-core/skills/fallback-unknown.mycroftai/vocab/no-no
+cp -r ~/mycroft-core/skills/fallback-unknown.mycroftai/dialog/en-us ~/mycroft-core/skills/fallback-unknown.mycroftai/dialog/no-no
 echo "." > ~/mycroft-core/skills/fallback-unknown.mycroftai/dialog/no-no/unknown.dialog
 
-cp -r ~/mycroft-core/skills/mycroft-volume.mycroftai/vocab/en-us/ ~/mycroft-core/skills/mycroft-volume.mycroftai/vocab/no-no/
-cp -r ~/mycroft-core/skills/mycroft-volume.mycroftai/dialog/en-us/ ~/mycroft-core/skills/mycroft-volume.mycroftai/dialog/no-no/
+cp -r ~/mycroft-core/skills/mycroft-volume.mycroftai/vocab/en-us ~/mycroft-core/skills/mycroft-volume.mycroftai/vocab/no-no
+cp -r ~/mycroft-core/skills/mycroft-volume.mycroftai/dialog/en-us ~/mycroft-core/skills/mycroft-volume.mycroftai/dialog/no-no
 echo "til" > ~/mycroft-core/skills/mycroft-volume.mycroftai/vocab/no-no/To.voc
 echo "volum" > ~/mycroft-core/skills/mycroft-volume.mycroftai/vocab/no-no/Volume.voc
 echo "sett" > ~/mycroft-core/skills/mycroft-volume.mycroftai/vocab/no-no/Set.voc
