@@ -28,6 +28,7 @@
       
 ## MyQTT
 - mycroft-msm install https://github.com/erikkt/myqtt.git
+- bash ~/mycroft-core/skills/myqtt.erikkt/lang.sh
 
 ``$ mycroft-config edit user``
 
