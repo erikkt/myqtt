@@ -35,10 +35,14 @@ to
 elleve
 EOM
 
-echo "volum satt til" > ~/mycroft-core/skills/mycroft-volume.mycroftai/dialog/no-no/set.volume.dialog
+cat > ~/mycroft-core/skills/mycroft-volume.mycroftai/dialog/no-no/set.volume.dialog <<- EOM
+Volum er satt til {{volume}}
+Volum endret til {{volume}}
+EOM
+
 echo "volum er på høyeste nivå" > ~/mycroft-core/skills/mycroft-volume.mycroftai/dialog/no-no/max.volume.dialog
 echo "volum er allerede på høyeste nivå" > ~/mycroft-core/skills/mycroft-volume.mycroftai/dialog/no-no/already.max.volume.dialog
-echo "volum er satt til" > ~/mycroft-core/skills/mycroft-volume.mycroftai/dialog/no-no/volume.is.dialog
+echo "Volum er satt til {{volume}}" > ~/mycroft-core/skills/mycroft-volume.mycroftai/dialog/no-no/volume.is.dialog
 
 cat > ~/.mycroft/mycroft.conf <<- EOM
 {
