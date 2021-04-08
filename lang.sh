@@ -31,7 +31,7 @@ seks
 sju
 åtte
 ni
-to
+ti
 elleve
 EOM
 
